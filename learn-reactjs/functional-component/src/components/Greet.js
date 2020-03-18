@@ -1,3 +1,12 @@
-import React from 'react';
+import React from "react";
 
-export const Greet=()=> <h1>Hello Mani Bhushan</h1>
+export const Greet = props => {
+  return (
+    <div>
+      <h1>
+        {props.name} is interested in {props.alias}
+      </h1>
+      {props.children}
+    </div>
+  );
+};
