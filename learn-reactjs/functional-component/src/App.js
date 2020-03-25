@@ -1,18 +1,12 @@
 import React from 'react';
-import {Greet} from './components/Greet'
-import Welcome from './components/Welcome'
-import Message from './components/Message'
+import HookCounter from './components/hooks/HookCounter';
+import UserStateWithObject from './components/hooks/UserStateWithObject';
 
 const App = ()=>{
   return (
     <div className="App">
-      {/* <Greet name='Mani' alias='Coder'>
-        <p>Mani is genious</p>
-      </Greet>
-      <Greet name='Shikhar ' alias='Sales guy'/>
-      <Greet name='Deepak ' alias ='Spiritual'/>
-      <Welcome/> */}
-      <Message/>
+      {/* <HookCounter/> */}
+      <UserStateWithObject/>
     </div>
   )
 }
