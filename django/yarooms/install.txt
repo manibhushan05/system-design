@@ -1,0 +1,8 @@
+#create role
+create role mani with password 'whvc.1900' login createdb;
+CREATE DATABASE "django_yaroomsdb"
+    WITH OWNER "mani"
+    ENCODING 'UTF8'
+    LC_COLLATE = 'en_US.UTF-8'
+    LC_CTYPE = 'en_US.UTF-8'
+    TEMPLATE template0;
